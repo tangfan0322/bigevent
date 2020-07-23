@@ -2,7 +2,7 @@ html,body {
     margin: 0;padding: 0;
     height: 100%;
     width: 100%;
-    background: url("./assets/images/login_bg.jpg") no-repeat center;
+    background: url("../images/login_bg.jpg") no-repeat center;
     background-size: cover;
 }
 /* 登录注册区域 */
@@ -16,7 +16,7 @@ html,body {
 }
 .title-box {
     height: 60px;
-    background: url("../images/login_bg.jpg") no-repeat center;
+    background: url("../images/login_title.png") no-repeat center;
 }
 .reg-box {
     display: none;
