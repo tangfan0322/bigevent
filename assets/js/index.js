@@ -24,7 +24,7 @@ $(function() {
             if(res.status !== 0) {
               return 
             }
-           console.log(res);
+          //  console.log(res);
           //  获取姓名
            var name=res.data.nickname || res.data.username
            $('#welcome').html("欢迎 &nbsp;&nbsp;" +name)
